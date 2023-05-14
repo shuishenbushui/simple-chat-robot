@@ -1,11 +1,11 @@
 # simple-chat-robot
 
 install:
-pip install langchain \n
-pip install gradio
+1、pip install langchain
+2、pip install gradio
 
 use:
-python test.py
-open brower
-input api_key
-chat with robot
+1、python test.py
+2、open brower
+3、input api_key
+4、chat with robot
