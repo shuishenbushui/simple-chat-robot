@@ -1,7 +1,7 @@
 # simple-chat-robot
 
 install:
-pip install langchain
+pip install langchain \n
 pip install gradio
 
 use:
