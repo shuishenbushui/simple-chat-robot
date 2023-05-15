@@ -6,13 +6,14 @@ from langchain.chat_models import ChatOpenAI
 
 history2 = ChatMessageHistory()
 
-history2.add_ai_message("hi!")
+history2.add_user_message("hi robot!")
+history2.add_ai_message("hi man!")
 
 
 
 def chat(api_key, message, history):
 
-    history = history or [('hi!', "hi!")]
+    history = history or [('hi robot!', "hi man!")]
     print('api_key:', api_key)
     print('message:', message)
     print('history:', history)
