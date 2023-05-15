@@ -12,7 +12,7 @@ history2.add_ai_message("hi!")
 
 def chat(api_key, message, history):
 
-    history = history or [('hi!', "")]
+    history = history or [('hi!', "hi!")]
     print('api_key:', api_key)
     print('message:', message)
     print('history:', history)
